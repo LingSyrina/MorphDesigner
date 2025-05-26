@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+#canvas {
+  border: 1px solid #333;
+  cursor: crosshair;
+}
+
+#sidebar {
+  width: 280px;
+  padding: 1em;
+  background: #f0f0f0;
+  border-left: 1px solid #ccc;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+input[type="number"],
+button {
+  margin-top: 4px;
+}
+
+button {
+  width: 100%;
+  margin-bottom: 4px;
+}
+
+#infoContent {
+  font-family: monospace;
+  font-size: 13px;
+  white-space: pre-line;
+}
