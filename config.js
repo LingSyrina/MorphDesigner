@@ -20,7 +20,7 @@ export function createConfig(canvas, options = {}) {
     },
     ArcControl: new Array(options.numCtrls || 3).fill(Math.PI / 2),
     styles: {
-      fill: "#7A9D80",
+      fill: "rgba(122, 157, 128, 0.5)",
       stroke: "#000000",
       anchorColor: "#0084ff",
       ctrlColor: "#ff6600",
