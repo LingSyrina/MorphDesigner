@@ -137,6 +137,7 @@ window.GenerateMorphSpace = async function () {
       const weightX = i / (stepsX - 1);
       state.blobs.M = interpolate2D(state.blobs.A,state.blobs.B,state.blobs.C,state.blobs.D,weightX,weightY);
       const offset = [i * cellSize, j * cellSize];
+      state.CONFIG.styles.fill = "#7A9D80";
       drawBlob(ctx, state.blobs.M, offset[0], offset[1], state.CONFIG); // assumes drawBlob uses offset correctly
     }
   }
